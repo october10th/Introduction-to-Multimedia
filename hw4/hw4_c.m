@@ -18,7 +18,7 @@ for fileidx=[8]
         for d=[8 16]
             disp(['full search ' filename ' (N=' num2str(N) ', d=' num2str(d) ')']);
             tic
-            motion=fullSearch(img_ref, img_target, d, N);
+            [motion totalSAD]=fullSearch(img_ref, img_target, d, N);
             img_predict=getPredict(img_ref, motion, N);
             toc
 %             psnr(img_target, img_predict);

@@ -1,8 +1,9 @@
-function out=fullSearch(ref, tar, d, N)
+function [out, totalSAD]=fullSearch(ref, tar, d, N)
 % d:search range
 % N:macro block
 [H W ~]=size(ref);
 out=zeros(H/N, W/N, 2);
+totalSAD=0;
 for i=1:N:H
     for j=1:N:W
         idx_x=floor((i-1)/N)+1;
@@ -25,6 +26,7 @@ for i=1:N:H
                 end
             end
         end
+        totalSAD=totalSAD+SAD;
         
     end
 end

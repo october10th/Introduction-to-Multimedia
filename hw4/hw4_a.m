@@ -18,8 +18,9 @@ for fileidx=[8 17]
         for d=[8 16]
             disp(['full search ' filename ' (N=' num2str(N) ', d=' num2str(d) ')']);
             tic
-            motion=fullSearch(img_ref, img_target, d, N);
+            [motion totalSAD]=fullSearch(img_ref, img_target, d, N);
             img_predict=getPredict(img_ref, motion, N);
+            disp(['total SAD = ' num2str(totalSAD)]);
             toc
 %             psnr(img_target, img_predict);
             imwrite(abs(img_predict-img_target), ['hw4_a_fullsearch_N_' num2str(N) '_d_' num2str(d) '_' filename]);
@@ -44,8 +45,9 @@ for fileidx=[8 17]
         for d=[8 16]
             disp(['2D logarithmic search ' filename ' (N=' num2str(N) ', d=' num2str(d) ')']);
             tic
-            motion=logSearch(img_ref, img_target, d, N);
+            [motion totalSAD]=logSearch(img_ref, img_target, d, N);
             img_predict=getPredict(img_ref, motion, N);
+            disp(['total SAD = ' num2str(totalSAD)]);
             toc
 %             psnr(img_target, img_predict)%
             imwrite(abs(img_predict-img_target), ['hw4_a_logsearch_N_' num2str(N) '_d_' num2str(d) '_' filename]);

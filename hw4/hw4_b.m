@@ -18,12 +18,12 @@ for i=8:17
     img_target=rgb2gray(img_target);
     for N=[8 16]
         for d=[8 16]
-            motion=fullSearch(img_ref, img_target, d, N);
+            [motion totalSAD]=fullSearch(img_ref, img_target, d, N);
             img_predict=getPredict(img_ref, motion, N);
             
             psnrValF(i-7, N/8, d/8)=psnr(img_target, img_predict);
             
-            motion=logSearch(img_ref, img_target, d, N);
+            [motion totalSAD]=logSearch(img_ref, img_target, d, N);
             img_predict=getPredict(img_ref, motion, N);
             
             psnrValL(i-7, N/8, d/8)=psnr(img_target, img_predict);
