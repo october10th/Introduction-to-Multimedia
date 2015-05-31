@@ -1,48 +1,48 @@
 full search caltrain008.bmp (N=8, d=8)
 total SAD = 2354.2275
-Elapsed time is 6.620110 seconds.
+Elapsed time is 6.094224 seconds.
 full search caltrain008.bmp (N=8, d=16)
 total SAD = 2329.3216
-Elapsed time is 24.738759 seconds.
+Elapsed time is 22.603194 seconds.
 full search caltrain008.bmp (N=16, d=8)
 total SAD = 2726.0863
-Elapsed time is 1.779850 seconds.
+Elapsed time is 2.049892 seconds.
 full search caltrain008.bmp (N=16, d=16)
 total SAD = 2708.7137
-Elapsed time is 6.835407 seconds.
+Elapsed time is 6.336039 seconds.
 full search caltrain017.bmp (N=8, d=8)
 total SAD = 7773.3098
-Elapsed time is 7.071623 seconds.
+Elapsed time is 6.218443 seconds.
 full search caltrain017.bmp (N=8, d=16)
 total SAD = 4195.4
-Elapsed time is 25.729248 seconds.
+Elapsed time is 22.370898 seconds.
 full search caltrain017.bmp (N=16, d=8)
 total SAD = 10157.3255
-Elapsed time is 1.836765 seconds.
+Elapsed time is 1.875510 seconds.
 full search caltrain017.bmp (N=16, d=16)
 total SAD = 5365.4902
-Elapsed time is 7.170424 seconds.
+Elapsed time is 6.356680 seconds.
 2D logarithmic search caltrain008.bmp (N=8, d=8)
 total SAD = 2850.0471
-Elapsed time is 0.778349 seconds.
+Elapsed time is 0.719225 seconds.
 2D logarithmic search caltrain008.bmp (N=8, d=16)
 total SAD = 2850.0471
-Elapsed time is 0.683446 seconds.
+Elapsed time is 0.624758 seconds.
 2D logarithmic search caltrain008.bmp (N=16, d=8)
 total SAD = 2972.3804
-Elapsed time is 0.218709 seconds.
+Elapsed time is 0.191737 seconds.
 2D logarithmic search caltrain008.bmp (N=16, d=16)
 total SAD = 2972.3804
-Elapsed time is 0.246415 seconds.
+Elapsed time is 0.193988 seconds.
 2D logarithmic search caltrain017.bmp (N=8, d=8)
 total SAD = 10473.0314
-Elapsed time is 0.763002 seconds.
+Elapsed time is 0.723423 seconds.
 2D logarithmic search caltrain017.bmp (N=8, d=16)
 total SAD = 10473.0314
-Elapsed time is 0.748123 seconds.
+Elapsed time is 0.668227 seconds.
 2D logarithmic search caltrain017.bmp (N=16, d=8)
 total SAD = 12031.4039
-Elapsed time is 0.242653 seconds.
+Elapsed time is 0.214864 seconds.
 2D logarithmic search caltrain017.bmp (N=16, d=16)
 total SAD = 12031.4039
-Elapsed time is 0.237208 seconds.
+Elapsed time is 0.238904 seconds.

@@ -1,0 +1,17 @@
+>> hw4_c
+full search caltrain008.bmp (N=8, d=8)
+Elapsed time is 6.219151 seconds.
+full search caltrain008.bmp (N=8, d=16)
+Elapsed time is 22.895812 seconds.
+full search caltrain008.bmp (N=16, d=8)
+Elapsed time is 1.698109 seconds.
+full search caltrain008.bmp (N=16, d=16)
+Elapsed time is 6.331502 seconds.
+2D logarithmic search caltrain008.bmp (N=8, d=8)
+Elapsed time is 0.627258 seconds.
+2D logarithmic search caltrain008.bmp (N=8, d=16)
+Elapsed time is 0.625378 seconds.
+2D logarithmic search caltrain008.bmp (N=16, d=8)
+Elapsed time is 0.180564 seconds.
+2D logarithmic search caltrain008.bmp (N=16, d=16)
+Elapsed time is 0.180405 seconds.

@@ -1,0 +1,16 @@
+full search caltrain008.bmp (N=8, d=8)
+Elapsed time is 4.544828 seconds.
+full search caltrain008.bmp (N=8, d=16)
+Elapsed time is 16.824790 seconds.
+full search caltrain008.bmp (N=16, d=8)
+Elapsed time is 1.612262 seconds.
+full search caltrain008.bmp (N=16, d=16)
+Elapsed time is 5.888111 seconds.
+2D logarithmic search caltrain008.bmp (N=8, d=8)
+Elapsed time is 0.540365 seconds.
+2D logarithmic search caltrain008.bmp (N=8, d=16)
+Elapsed time is 0.524417 seconds.
+2D logarithmic search caltrain008.bmp (N=16, d=8)
+Elapsed time is 0.181683 seconds.
+2D logarithmic search caltrain008.bmp (N=16, d=16)
+Elapsed time is 0.177001 seconds.
