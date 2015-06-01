@@ -5,6 +5,7 @@ function [out, totalSAD]=logSearch(ref, tar, d, N)
 [H W ~]=size(ref);
 out=zeros(H/N, W/N, 2);
 totalSAD=0;
+totalTime=[];
 for i=1:N:H
     for j=1:N:W
         
@@ -45,8 +46,9 @@ for i=1:N:H
                     continue;
                 end
                 used(tar_x, tar_y)=1;
-                nowSAD=calcSAD(ref(i:i+N-1, j:j+N-1),...
+                [nowSAD, ti]=calcSAD(ref(i:i+N-1, j:j+N-1),...
                                tar(tar_x:tar_x+N-1, tar_y:tar_y+N-1));
+                totalTime=[totalTime ti];
                 if nowSAD<SAD
                     SAD=nowSAD;
                     move_x=tar_x;
@@ -70,4 +72,6 @@ for i=1:N:H
 end
 
 
+
+disp(['SAD mean time = ' num2str(mean(totalTime)) '  seconds.']);
 end

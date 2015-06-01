@@ -4,6 +4,7 @@ function [out, totalSAD]=fullSearch(ref, tar, d, N)
 [H W ~]=size(ref);
 out=zeros(H/N, W/N, 2);
 totalSAD=0;
+totalTime=[];
 for i=1:N:H
     for j=1:N:W
         idx_x=floor((i-1)/N)+1;
@@ -17,7 +18,8 @@ for i=1:N:H
                     continue;
                 end
                 
-                nowSAD=calcSAD(ref(i:i+N-1, j:j+N-1), tar(a:a+N-1, b:b+N-1));
+                [nowSAD, ti]=calcSAD(ref(i:i+N-1, j:j+N-1), tar(a:a+N-1, b:b+N-1));
+                totalTime=[totalTime ti];
                 if nowSAD<SAD
                     SAD=nowSAD;
                     
@@ -30,6 +32,7 @@ for i=1:N:H
         
     end
 end
+disp(['SAD mean time = ' num2str(mean(totalTime)) '  seconds.']);
 
 
 end
