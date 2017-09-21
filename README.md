@@ -1,12 +1,20 @@
 # Introduction-to-Multimedia
 
-### HW1 - Demosaicing and Dithering
+### HW1
 
-### HW2 - Bézier Curve
+- Demosaicing
+- Dithering
 
-### HW3 - Filtering Audio Signals
+### HW2
 
-### HW4 - Motion Estimation Algorithms
+- Bézier Curve
 
-- full search
-- 2D logarithmic
+### HW3
+
+- Filtering Audio Signals
+
+### HW4
+
+- Motion Estimation Algorithms
+ - full search
+ - 2D logarithmic
