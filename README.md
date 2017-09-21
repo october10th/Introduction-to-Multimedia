@@ -16,5 +16,5 @@
 ### HW4
 
 - Motion Estimation Algorithms
- - full search
- - 2D logarithmic
+  - full search
+  - 2D logarithmic
